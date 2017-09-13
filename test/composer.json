@@ -1,0 +1,15 @@
+{
+	"require":{
+		"noahbuscher/macaw":"dev-master",
+		"illuminate/database": "*"
+	},
+	 "autoload": {
+        "psr-4": {
+            "" : ""
+        },
+        "classmap":[
+        	"app/controllers",
+        	"app/models"
+        ]
+    }
+}
